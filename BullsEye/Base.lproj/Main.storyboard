@@ -100,7 +100,7 @@
                                         <size key="shadowOffset" width="0.0" height="1"/>
                                     </label>
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="H8T-eG-Pvh">
-                                        <frame key="frameInset" minX="20" minY="194" width="32" height="32"/>
+                                        <frame key="frameInset" minX="376" minY="191" width="32" height="32"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <state key="normal" image="InfoButton" backgroundImage="SmallButton"/>
                                         <connections>
@@ -126,7 +126,7 @@
                                         <size key="shadowOffset" width="0.0" height="1"/>
                                     </label>
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="twr-e0-Lul">
-                                        <frame key="frameInset" minX="375" minY="192" width="32" height="32"/>
+                                        <frame key="frameInset" minX="27" minY="191" width="32" height="32"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <state key="normal" image="StartOverIcon" backgroundImage="SmallButton"/>
                                         <connections>

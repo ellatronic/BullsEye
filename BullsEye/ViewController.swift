@@ -8,6 +8,7 @@
 // “Artwork/images/designs: from iOS Apprentice book, available at www.raywenderlich.com”
 
 import UIKit
+import QuartzCore
 
 class ViewController: UIViewController {
     
@@ -90,6 +91,12 @@ class ViewController: UIViewController {
     @IBAction func startOver() {
         startNewGame()
         updateLabels()
+        
+        let transition = CATransition()
+        transition.type = kCATransitionFade
+        transition.duration = 1
+        transition.timingFunction = CAMediaTimingFunction(name: kCAMediaTimingFunctionEaseOut)
+        view.layer.add(transition, forKey: nil)
     }
     
     func startNewGame() {
